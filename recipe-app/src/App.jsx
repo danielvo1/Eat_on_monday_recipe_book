@@ -1,33 +1,26 @@
 import './App.css'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Create from './pages/create'
-function Home() {
-  return <h1>Home Page</h1>;
-}
-
-// function Create() {
-//   return <h1>About Page</h1>;
-// }
-
-function Calculate() {
-  return <h1>Calculate Page</h1>;
-}
+import RecipeBook from './pages/recipebook'
+import Home from './pages/home'
+import RecipeDetail from './pages/recipedetail'
 
 function App() {
 
   return (
     <BrowserRouter>
-    <nav>
-        <Link to="/">Home</Link> |{" "}
-        <Link to="/create">Create</Link> |{" "}
-        <Link to="/calculate">Calculate</Link>
+    <nav id='navbar'>
+        <Link className='navbar-link' to="/">Home</Link>
+        <Link className='navbar-link' to="/create">Create</Link>
+        <Link className='navbar-link' to="/recipebook">Recipe Book</Link>
       </nav>
     <Routes>
 
     
       <Route path="/" element={<Home />} />
       <Route path="/create" element={<Create />} />
-      <Route path="/calculate" element={<Calculate />} />
+      <Route path="/recipebook" element={<RecipeBook />} />
+      <Route path="/recipe/:recipeName" element={<RecipeDetail />} />
 
     </Routes>
     </BrowserRouter>

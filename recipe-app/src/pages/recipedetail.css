@@ -1,0 +1,181 @@
+.recipe-detail-container {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.back-button {
+  margin-bottom: 20px;
+  padding: 8px 16px;
+  background-color: #1a1a1a;
+  color: inherit;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.back-button:hover {
+  border-color: #646cff;
+}
+
+.recipe-header {
+  margin-bottom: 30px;
+}
+
+.recipe-title {
+  font-size: 2.5rem;
+  margin: 0;
+  color: inherit;
+}
+
+.recipe-name-edit {
+  font-size: 2.5rem;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 600px;
+  background-color: inherit;
+  color: inherit;
+  font-weight: bold;
+}
+
+.ingredients-section {
+  margin-bottom: 40px;
+}
+
+.ingredients-section h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.ingredients-detail-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+.ingredients-detail-table thead tr {
+  background-color: #1a1a1a;
+}
+
+.ingredients-detail-table th {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: left;
+  font-weight: 600;
+}
+
+.ingredients-detail-table td {
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+.ingredients-detail-table td span {
+  display: block;
+}
+
+.ingredient-input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: inherit;
+  color: inherit;
+}
+
+.remove-ingredient-button {
+  padding: 6px 12px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.remove-ingredient-button:hover {
+  background-color: #c82333;
+}
+
+.add-ingredient-button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-ingredient-button:hover {
+  background-color: #218838;
+}
+
+.recipe-actions {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.edit-button {
+  padding: 12px 24px;
+  background-color: #646cff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.edit-button:hover {
+  background-color: #535bf2;
+}
+
+.edit-icon {
+  font-size: 18px;
+}
+
+.edit-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.cancel-button {
+  padding: 12px 24px;
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.cancel-button:hover {
+  background-color: #5a6268;
+}
+
+.save-button {
+  padding: 12px 24px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.save-button:hover {
+  background-color: #218838;
+}
+
